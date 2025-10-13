@@ -1,0 +1,15 @@
+write a c programme to print -200 to 200
+#include <stdio.h>
+
+int main() {
+int n;
+
+    printf("odd numbers from -200 to 200:");
+    for(n=-200;n<=200;n++){
+        if(n % 2!=0)
+        printf("%d ,",n);
+    }
+    
+
+    return 0;
+}
